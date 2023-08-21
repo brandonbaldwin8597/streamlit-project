@@ -19,7 +19,7 @@ car_model=st.sidebar.selectbox("Select model of your car", ('Audi A1', 'Audi A2'
        'Opel Insignia', 'Renault Clio', 'Renault Duster', 'Renault Espace'))
 
 
-model=pickle.load(open("rf_model_new","rb"))
+model=pickle.load(open("ridge_model","rb"))
 
 
 
